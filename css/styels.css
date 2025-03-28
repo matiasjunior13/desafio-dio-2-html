@@ -1,0 +1,194 @@
+
+html, body {
+    margin: 0;
+    font-family: "Fira Sans", sans-serif;
+}
+ul  {
+    list-style-type: none;
+    }
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+#messagem-clinica{
+    text-align: center;
+}
+
+#messagem-central{
+    text-align: center;
+}
+
+#gif-pets{
+    display: flex;
+    margin-left: 190px;
+    align-items: center;
+    width: 500px;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 10 auto;
+    background-color: black;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: lightgrey;
+    padding: 10px 20px 0px;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: white;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#foto-header{
+    display: flex;
+    width: 300px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: white;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.message-servico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-collapse: collapse;
+    border-radius: 10px;
+    border-color: lightseagreen;
+    text-align: center;
+}
+table thead th {
+    background-color: grey;
+    color:white;
+    width: 0%;
+} 
+table tfoot td{
+    background-color: lightgray;
+}
+table tbody tr:nth-child(even) td {
+    background-color: lightblue;
+}
+table tbody tr:hover td {
+    background-color: rgba(0, 128, 0, 0.144);
+    cursor: pointer;
+}
+
+#messagem-contato{
+    text-align: center;
+}
+
+#logo-whatsapp{
+    position: relative;
+    padding-left: 0;
+    width: 20px;
+    float: left;
+}
+
+#logo-telefone-fixo{
+    position: relative;
+    padding-left: 0;
+    width: 20px;
+    float: left;
+}
+
+#messagem-maps{
+    text-align: center;
+}
+
+.form-iframe-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+
+.iframe-container {
+    width: 48%;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+iframe{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    border: none;
+}
+
+.formulario{
+    border: 3px solid lightgrey;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input {
+    width: 100%;               /* Define o input com largura total do contêiner */
+    padding: 10px;             /* Espaçamento interno */
+    margin: 10px 0;            /* Espaçamento entre os campos */
+    border: 2px solid #ccc;   /* Borda de 2px, cor cinza clara */
+    border-radius: 5px;        /* Borda arredondada */
+    font-size: 16px;           /* Tamanho da fonte */
+    box-sizing: border-box;    /* Garantir que o padding seja incluído na largura total */
+}
+
+button {
+    padding: 5px 10px;
+    background-color: lightblue;
+    color: black;          
+    border: none;            
+    border-radius: 5px;    
+    cursor: pointer;        
+    font-size: 16px;
+}
+button:hover {
+    background-color: #45a049; /* Muda a cor do botão ao passar o mouse */
+}
+textarea{
+    width: 100%;
+    height: 100px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#messagem-nossa-equipe{
+    text-align: center;
+}
